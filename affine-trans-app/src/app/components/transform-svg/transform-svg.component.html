@@ -1,0 +1,12 @@
+<svg:svg xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" [attr.viewBox]="viewBoxStr">
+  <svg:g >
+    <path
+      *ngFor="let layer of layerPaths"
+      [attr.stroke]="lineColor"
+      [attr.stroke-width]="svgline_width"
+      fill="none"
+      [attr.d]="layer"
+    >
+  </path>
+</svg:g>
+</svg:svg>

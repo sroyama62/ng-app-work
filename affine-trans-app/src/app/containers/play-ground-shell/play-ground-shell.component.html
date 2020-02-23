@@ -1,0 +1,21 @@
+<div class="play-ground-shell-container">
+  <div class="top-left-container">
+    <div class="oct-bscan-container">
+      <app-bscan-viewer [bscanImage]="bscanImage" [range]="range" [viewBox]="viewBox"></app-bscan-viewer>
+    </div>
+    <div class="oct-layer-container">
+      <app-transform-svg [layers]="layers" [range]="range" [viewBoxStr]="viewBoxStr" [lineColor]="'yellow'"></app-transform-svg>
+    </div>
+
+  </div>
+  <div class="top-right-container">
+    <app-transform-svg [layers]="layers" [range]="range" [viewBoxStr]="viewBoxStr" [lineColor]="'white'">
+    </app-transform-svg>
+  </div>
+  <div class="bottom-left-container">
+    <p>bottom left panel works!</p>
+  </div>
+  <div class="bottom-right-container">
+    <p>bottom right panel works!</p>
+  </div>
+</div>

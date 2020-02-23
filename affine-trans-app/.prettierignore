@@ -1,0 +1,10 @@
+package.json
+package-lock.json
+dist
+.angulardoc.json
+.vscode/*
+**/polyfills.js
+libs/acquire/IM6Libraries
+**/assets/js/libs
+**/assets/js/oct
+**/assets/ultima-theme
